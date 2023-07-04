@@ -9,6 +9,14 @@ const productSchema = mongoose.Schema({
     },
     description: {
         type: String
+    },
+    rating: {
+        type: Number,
+        default: 0
+    },
+    feedback: {
+        type: String,
+        default: ''
     }
 
 })
